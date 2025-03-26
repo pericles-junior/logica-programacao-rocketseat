@@ -1,3 +1,7 @@
-print("Hello, World!")
-print("Eu de novo")
-print(1 + 1 )
+# Tipos de dados
+# númericos, texto, booleano (lógico)
+# estaticamente tipadas:
+# declarar os tipos antes de usar
+# python é dinamicamente tipada
+# não precisa declarar
+
