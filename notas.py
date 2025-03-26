@@ -3,11 +3,8 @@ print('---')
 nota = int(input('Digite uma nota: '))
 
 if nota >= 7:
-    print('Aprovado!')
-    print('Parabéns!!')
+    print('Aprovado!!!')
 elif nota < 5:
-    print('Reprovado!')
+    print('Reprovado! :( ')
 else:
-    print('Recuperação')
-    
-print('Acabou!')
+    print('Recuperação!')
