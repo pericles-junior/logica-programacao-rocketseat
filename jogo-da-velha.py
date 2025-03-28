@@ -9,7 +9,6 @@ def mostraTabuleiro():
   for linha in tabuleiro:
     print('|'.join(linha))
     print('-' * 5) 
-
 def jogada(linha, coluna):
   tabuleiro[linha][coluna] = jogador
   return 'O' if jogador == 'X' else 'X'
