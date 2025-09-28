@@ -6,7 +6,7 @@ while True:
     acertou = False
     for pergunta in perguntas:
         resposta = input(f'{pergunta[0]} (s/n): ')
-        if resposta.lower() == 's':
+        if resposta.lower() in ['s','sim']:
             print(f'Você pensou em {pergunta[1]}!')
             acertou = True
             break
@@ -17,6 +17,6 @@ while True:
         perguntas.append([ novaPergunta, animal])
 
     resposta = input('Quer jogar novamente? (s/n): ')
-    if resposta.lower() != 's':
+    if resposta.lower() not in ['s','sim']:
         print('Ok! Foi bom jogar com você!')
         break
