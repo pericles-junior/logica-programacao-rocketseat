@@ -16,7 +16,7 @@ while True:
 
         perguntas.append([ novaPergunta, animal])
 
-        resposta = input('Quer jogar novamente? (s/n): ')
-        if resposta.lower() != 's':
-            print('Ok! Foi bom jogar com você!')
-            break
+    resposta = input('Quer jogar novamente? (s/n): ')
+    if resposta.lower() != 's':
+        print('Ok! Foi bom jogar com você!')
+        break
